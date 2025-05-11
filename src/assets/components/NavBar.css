@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-color: #101010; /* Dark background color */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f3f3; /* Light background color */
+    padding: 20px 50px; /* Top/Bottom and Left/Right padding */
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  
+  .logo {
+    color: #fff; /* Logo text color */
+    font-family: 'Arial', sans-serif; /* Font style for logo */
+  }
+  
+  .nav-links a {
+    margin: 0 20px; /* Space between links */
+    color: #710000; /* Link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
